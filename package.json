@@ -1,0 +1,19 @@
+{
+  "name": "generate-mnemonic",
+  "version": "1.0.0",
+  "description": "Generate an Ethereum Mnemonic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcore-lib": "^8.1.0",
+    "bitcore-mnemonic": "^8.1.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "generate-mnemonic": "./index.js"
+  }
+}
